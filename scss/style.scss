@@ -1,6 +1,7 @@
-@import url( ./base/_globales.scss);
+@import url(./base/_globales.scss);
 @import url(./base/_variables.scss);
 
-/**UI**/
-@import url(../scss/sections/_header.scss);
-@import url(../scss/sections/footer.scss);
+  /*UI*/
+  @import url(./sections/_header.scss);
+  @import url(./sections/_footer.scss);
+   

@@ -1,0 +1,7 @@
+@import url(./base/_globales.scss);
+@import url(./base/_variables.scss);
+/*UI*/
+@import url(./sections/_header.scss);
+@import url(./sections/_footer.scss);
+
+/*# sourceMappingURL=style.css.map */
