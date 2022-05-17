@@ -2,3 +2,9 @@
 .header{
     background-color: $gris-oscuro;
 }
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
