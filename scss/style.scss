@@ -1,8 +1,9 @@
-@import url(./base/_globales.scss);
-@import url(./base/_variables.scss);
 
-  /*UI*/
-  @import url(./sections/_header.scss);
-  @import url(./sections/_footer.scss);
-  @import url(./sections/_navegacion.scss);
-   
+/*nesting*/
+
+@import 'base/globales';
+@import'base/variables';
+
+/*ui*/
+
+@import '/scss/sections/header'
