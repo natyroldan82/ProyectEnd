@@ -1,14 +1,12 @@
 .no-webp .inicio{
-    background-image: url();
+    background-image: url(../img/header.jpg);
+    .web .inicio{
+        background-image: url(../img/header.webp);
+    }
 }
 
 
 .header {
-    background-color: $gris-oscuro;
+    background-color: red;
     padding: 1rem 0 3rem 0 ;
-}
-.barra{
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
 }
