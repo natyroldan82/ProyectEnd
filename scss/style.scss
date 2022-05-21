@@ -3,9 +3,10 @@
 
 @import 'base/globales';
 @import'base/variables';
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/utilidades';
 
 /*ui*/
-
-@import '/scss/sections/header';
-@import'/scss/sections/footer';
-@import'/scss/sections/navegacion';
+@import 'sections/header';
+@import 'sections/navegacion';

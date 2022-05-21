@@ -1,12 +1,12 @@
-.no-webp .inicio{
-    background-image: url(../img/header.jpg);
-    .web .inicio{
-        background-image: url(../img/header.webp);
-    }
+
+
+
+
+.header{
+    background-color: $gris-oscuro;
+    display: flex;
 }
-
-
-.header {
-    background-color: red;
-    padding: 1rem 0 3rem 0 ;
+.navegacion{
+    display: block;
+    color:$blanco;
 }
