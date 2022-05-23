@@ -3,16 +3,23 @@
 
 
 .header{
-    background-color: $gris-oscuro;
-    display: flex;
-}
-.navegacion{
-   
-    a{
+    background-color: $verde;
+    padding: 1rem 0 5rem 0;
     
-    color: white;
-    text-decoration: none;
-    font-size: 2.2rem;
-    text-align: center;
 }
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    @include tablet{
+        min-height: 70rem;
+    }
+    h1 {
+        text-align: center;
+        color: $blanco;
+        font-weight: bold;
+        max-width: 60rem;
+
+    }
 }
