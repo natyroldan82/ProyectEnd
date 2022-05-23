@@ -7,6 +7,12 @@
     display: flex;
 }
 .navegacion{
-    display: block;
-    color:$blanco;
+   
+    a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    text-align: center;
+}
 }
