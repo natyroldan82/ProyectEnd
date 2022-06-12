@@ -1,25 +1,3 @@
-
-
-
-
 .header{
-    background-color: $verde;
-    padding: 1rem 0 5rem 0;
-    
-}
-
-.contenido-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between ;
-    @include tablet{
-        min-height: 70rem;
-    }
-    h1 {
-        text-align: center;
-        color: $blanco;
-        font-weight: bold;
-        max-width: 60rem;
-
-    }
+    background-color: black;
 }

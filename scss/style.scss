@@ -1,12 +1,11 @@
 
 /*nesting*/
 
-@import 'base/globales';
-@import'base/variables';
-@import 'base/mixins';
-@import 'base/utilidades';
-@import 'base/normalize';
+@import './base/globales';
+@import'./base/variables';
+
 
 /*ui*/
-@import 'sections/header';
-@import 'sections/navegacion';
+@import './sections/header';
+@import './sections/navegacion';
+@import './sections/footer';
